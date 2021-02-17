@@ -1,0 +1,70 @@
+.pack{
+    position:absolute;
+    justify-content: center;
+}
+ .wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: "fake" "holder" "fake2" ;
+} 
+.holder{
+    margin-top: 30px;
+    grid-area: "holder";
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas: "name"
+    "email"
+    "password"
+    "button"
+    "forget";
+    background-color: #333333;
+    padding: 0px 20px;
+    border-radius: 20px;
+}
+.name{
+    grid-area: "name";
+    text-align: center;
+}
+.email{
+    grid-area: "email";
+    text-align: center;
+    margin: 40px;
+    
+  
+}
+.email input{
+    height: 30px;
+    border-radius: 20px;
+    width: 250px;
+    outline: none;
+}
+.password{
+    grid-area: "password";
+    text-align: center;
+    margin-bottom: 40px;
+}
+.password input{
+    height: 30px;
+    border-radius: 20px;
+    width: 250px;
+    outline: none;
+}
+.button{
+    grid-area: "button";
+    text-align: center;
+    margin-bottom: 40px;
+}
+.button button{
+    border-radius: 20px;
+    height: 40px;
+}
+.forget{
+    grid-area: "forget";
+    text-align: center;
+    margin-bottom: 20px;
+}
+.forget a{
+    font-size: 20px;
+    color: white;
+    margin-top: 98px;
+}

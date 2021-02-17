@@ -1,0 +1,202 @@
+* 
+  a{
+    text-decoration: none;
+}
+/* nav-start */
+.navbar-light{
+background-color: #333333;
+
+}
+.navbar-brand{
+margin-right:35%;
+ 
+}
+.navbar-brand h3{
+color: white;
+font-size: 30px;
+font-weight: bold;
+
+font-family: 'Bree Serif', serif;
+}
+
+h5{
+color: white;
+}
+a:hover{
+background-color: gray;
+transition: 2s;
+}
+/* nav-end */
+
+/* main1 start */
+.main1{
+background-image: url(pics/cover1.jpg);
+height: 620px;
+overflow: hidden;
+}
+.text{
+margin-top: 450px;
+width: 50%;
+margin-left: 100px;
+
+}
+.text div{
+font-size: 50px;
+font-weight: bolder;
+color: white;
+text-align: center;
+
+font-family: 'Bree Serif', serif;
+}
+/* main1 end */
+/* service start */
+.service{
+margin-top: 20px;
+background-color: grey;
+height: 50px;
+color: white;
+justify-content: center;
+width: 50%;
+border-radius: 25px;
+
+}
+.service h5{
+text-align: center;
+margin-top: 15px;
+}
+/* service end */
+/* main2 start */
+.main2{
+margin-top: 20px;
+width: 100%;
+}
+.section{
+height: 300px;
+width: 300px;
+border: grey 2px solid;
+border-radius: 20px;
+background-color: grey;
+}
+/*  */
+.packer1 .box1{
+    background-image: url(pics/borrow1.jpg);
+    background-repeat: no-repeat;
+}
+.packer1 .box2{
+background-image: url(pics/cycle.jpg);
+background-repeat: no-repeat;
+}
+/*  */
+.section img{
+border-radius: 15px;
+}
+.packer1 h4{
+    text-align: center;
+    color: white;
+}
+/*      */
+.note{
+margin-top: 10px;
+width: 100%;
+}
+.sectionPro{
+height: 40px;
+width: 300px;
+border: grey 2px solid;
+border-radius: 25px;
+background-color: grey;
+}
+/*     */
+
+.main3{
+    margin-top: 10px;
+    width: 100%;
+    }
+    .section2{
+    height: 300px;
+    width: 300px;
+    border: grey 2px solid;
+    border-radius: 20px;
+    background-color: grey;
+    }
+    /*  */
+    .packer2 .box1Pro{
+       background-image: url(pics/group.jpg);
+       background-repeat: no-repeat;
+    }
+    .packer2 .box2Pro{
+        background-image: url(pics/power.jpg);
+    }
+    .section2 img{
+    border-radius: 15px;
+    }
+    .packer2 h4{
+        text-align: center;
+        color: white;
+    }
+    /*      */
+    .note2{
+    margin-top: 10px;
+    width: 100%;
+    }
+   
+    .sectionMax{
+    height: 40px;
+    width: 300px;
+    border: grey 2px solid;
+    border-radius: 25px;
+    background-color: grey;
+    }
+    /*  */
+
+.main4{
+    margin-top: 10px;
+    width: 100%;
+    }
+    .section3{
+    height: 300px;
+    width: 300px;
+    border: grey 2px solid;
+    border-radius: 20px;
+    background-color: grey;
+    }
+    /*  */
+    .packer3 .box1Last{
+       background-image: url(pics/doctor2.jpeg);
+       background-repeat: no-repeat;
+    }
+    .packer3 .box2Last{
+        background-image: url(pics/Nutrition.jpg);
+    }
+    .section3 img{
+    border-radius: 15px;
+    }
+    .packer3 h4{
+        text-align: center;
+        color: white;
+    }
+   
+    /*      */
+    .note3{
+    margin-top: 10px;
+    width: 100%;
+    }
+   
+    .sectionGig{
+    height: 40px;
+    width: 300px;
+    border: grey 2px solid;
+    border-radius: 25px;
+    background-color: grey;
+    }
+    /*  */
+  
+      /* footer */
+ p{
+    text-align: center;
+ }
+.footer{
+    background-color: #333333;
+    color: white;
+}
+ 

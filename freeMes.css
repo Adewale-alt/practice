@@ -1,0 +1,81 @@
+.header{
+    display: grid;
+    grid-template-columns: 9fr 3fr;
+    grid-template-areas: 'left' 'right';
+    background-color: purple;
+    height: 40px;
+    color: white;
+
+
+}
+.left{
+    grid-area: 'left';
+    display: flex;
+    margin-top: 10px;
+    margin-left: 20px;
+  
+}
+.left div{
+    margin-right: 15px;
+    color: white;
+}
+.right{
+    grid-area: 'right';
+     margin-top: 10px;
+     margin-right: 10px;
+     width: 120px;
+     height: 20px;
+     border: white solid 1px;
+     justify-self: end;
+}
+
+
+.right div{
+text-align: center;
+    color: white;
+    
+}
+.pack{
+    margin-top: 10px;
+    border-top: 2px gray  solid;
+}
+.nav{
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr 2fr 2fr;
+    grid-template-areas: 'face' 'firsti' 'fake1' 'fake2' 'settings' 'search';
+    margin-top: 10px;
+    margin-left: 20px;
+
+}
+.face{
+    grid-area: 'face';
+}
+.face div{
+    color: #333333;
+    font-size: 25px;
+    font-weight: bolder;
+
+}
+.settings i{
+    font-size: 25px;
+}
+.search i{
+    font-size: 25px;
+}
+
+.nav2{
+    display: grid;
+    grid-template-areas: 'icons';
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.icons {
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr 2fr 2fr;
+    font-size: 25px;
+
+}
+.icons a{
+    color: gray;
+}
+

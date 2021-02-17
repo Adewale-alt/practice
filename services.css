@@ -1,0 +1,70 @@
+* 
+  a{
+    text-decoration: none;
+}
+/* nav-start */
+.navbar-light{
+background-color: #333333;
+width: 100%;
+}
+.navbar-brand{
+margin-right:35%;
+ 
+}
+.navbar-brand h3{
+color: white;
+font-size: 30px;
+font-weight: bold;
+
+font-family: 'Bree Serif', serif;
+}
+
+h5{
+color: white;
+}
+a:hover{
+background-color: gray;
+transition: 2s;
+}
+/* nav-end */
+
+
+
+.main1{
+  background-image: url(pics/cover1.jpg);
+  height: 620px;
+  overflow: hidden;
+  width: 100%;
+  }
+  .text{
+  margin-top: 450px;
+  width: 50%;
+  margin-left: 50px;
+  
+  }
+  .text div{
+  font-size: 50px;
+  font-weight: bolder;
+  color: white;
+  text-align: center;
+  
+  font-family: 'Bree Serif', serif;
+  }
+
+
+
+
+
+
+
+
+
+  
+      /* footer */
+      p{
+        text-align: center;
+     }
+    .footer{
+        background-color: #333333;
+        color: white;
+    }
